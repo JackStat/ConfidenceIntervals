@@ -4,9 +4,7 @@ require(shiny)
 shinyUI(
   pageWithSidebar(
     # Application title.
-    headerPanel(
-      wellPanel("Simulating Confidence Intervals: By Tyler Hunt")
-      )
+    headerPanel("Simulating Confidence Intervals: By Tyler Hunt")
       
       ,sidebarPanel(
         img(src = "Logo_transparent_background.png", width = 400, align="center")
