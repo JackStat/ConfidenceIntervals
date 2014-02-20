@@ -9,7 +9,8 @@ shinyUI(
       )
       
       ,sidebarPanel(
-        wellPanel(
+        img(src = "Logo_transparent_background.png", width = 400, align="center")
+        ,wellPanel(
           helpText("This app is a demonstration of confidence intervals. The length of the bars are the size of the intervals. If the interval does not overlap with the population value (the black vertical line) then it is colored red to indicate a type 1 error.  Try increasing the sample size and see what happens")
           )
         ,wellPanel(
@@ -36,6 +37,7 @@ shinyUI(
                        ,min=1
                        ,max=99)
           ,align="center")
+        ,helpText("App created by", a(href="http://psychoanalytix.com", "PsychoAnalytix.com"))
         )
   
       # Show a summary of the dataset and an HTML table with the requested
