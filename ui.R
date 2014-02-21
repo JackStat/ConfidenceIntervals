@@ -7,7 +7,7 @@ shinyUI(
     headerPanel("Simulating Confidence Intervals: By Tyler Hunt")
       
       ,sidebarPanel(
-        img(src = "Logo_transparent_background.png", width = 400, align="center")
+        HTML("<a href='http://psychoanalytix.com'> <img src='Logo_transparent_background.png'></a> ")
         ,wellPanel(
           helpText("This app is a demonstration of confidence intervals. The length of the bars are the size of the intervals. If the interval does not overlap with the population value (the black vertical line) then it is colored red to indicate a type 1 error.  Try increasing the sample size and see what happens")
           )
