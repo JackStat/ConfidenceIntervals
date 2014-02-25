@@ -5,7 +5,7 @@ shinyUI(
   pageWithSidebar(
     # Application title.
     headerPanel("Simulating Confidence Intervals: By Tyler Hunt")
-      
+
       ,sidebarPanel(class="span10",
         HTML("<a href='http://psychoanalytix.com'> <img src='Logo_transparent_background.png'></a> ")
         ,wellPanel(
@@ -37,7 +37,7 @@ shinyUI(
           ,align="center")
         ,helpText("App created by", a(href="http://psychoanalytix.com", "PsychoAnalytix.com"))
         )
-  
+ 
       # Show a summary of the dataset and an HTML table with the requested
       # number of observations. Note the use of the h4 function to provide
       # an additional header above each output section.
