@@ -6,9 +6,11 @@ generator = function(n, pop.mean , pop.sd, conf.lvl) {
        ,yaxt = 'n'
        ,xlab = (conf.lvl)
        ,ylab = (n)
-       ,main = "Confidence Intervals of 100 Samples")
+#        ,main = "Confidence Intervals of 100 Samples"
+       )
   
   abline(v = pop.mean, col = 'black')
+  mtext(expression(mu), cex = 2, at = pop.mean)
   
   for (i in 1:100){
     x <- rnorm(n, mean = pop.mean, sd = pop.sd)
