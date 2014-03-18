@@ -7,4 +7,4 @@ require(shiny)
 runGitHub("CI", "JackStat")
 ```
 
-[http://apps.tylerhunt.co/CI]: http://apps.tylerhunt.co/CI
+[http://apps.tylerhunt.co/ConfidenceIntervals]: http://apps.tylerhunt.co/ConfidenceIntervals
