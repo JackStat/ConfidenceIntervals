@@ -1,4 +1,4 @@
-generator = function(n, pop.mean , pop.sd, conf.lvl) {
+generator = function(n = 100, pop.mean = 0, pop.sd = 1, conf.lvl = .95) {
   
   plot(NULL
        ,xlim = c(pop.mean-pop.sd,pop.mean+pop.sd)
